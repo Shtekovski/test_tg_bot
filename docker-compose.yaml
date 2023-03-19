@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  service_checker_bot:
+    image: "telegram_bot:latest"
+    environment:
+      MOONSPEAK_TGBOT_TOKEN: "${MOONSPEAK_TGBOT_TOKEN}"
+      MOONSPEAK_ADMIN_ID_0: "${MOONSPEAK_ADMIN_ID_0}"
+      MOONSPEAK_ADMIN_ID_1: "${MOONSPEAK_ADMIN_ID_1}"
