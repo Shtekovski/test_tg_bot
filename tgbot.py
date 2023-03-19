@@ -14,4 +14,5 @@ def start(message):
         bot.send_message(message.chat.id,"Привет, админ!")
     else:
         bot.send_message(message.chat.id,"У вас нет доступа к даным бота")
+print('Started')
 bot.infinity_polling()
